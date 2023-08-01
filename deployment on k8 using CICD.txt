@@ -1,0 +1,27 @@
+Deployment on Kubernetes cluster using jenkins CI/CD
+Pre-requisites : Git, Linux, Jenkins, Docker, DockerHub Account,
+Ansible,Kubernetes (Deployments & services)
+
+ec2 instances - 3 ::>>
+
+1. Jenkins (default-jre+ jenkins) ----------------------->> 34.100.139.71 GCP <Plugin - Publish Over SSH, SSH Agent
+2. Ansible (python+ansible+docker) ---------------------->>  AWS
+3. Webapp (kubernetes cluster) -->(docker+minikube/kubeadem/EKS/AKS) ----->> 34.93.114.228 GCP
+
+2. Ansible>> 
+
+vi ansible.sh
+
+sudo yum update -y
+
+yum install ansible-core -y
+
+
+
+
+
+
+
+
+
+
